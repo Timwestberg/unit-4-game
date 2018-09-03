@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Game|Crystal Collector
+    </title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Philosopher|Satisfy" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark" id="nav-z">
+            <img src="assets/images/rupee-icon.jpg" class="game-icon" alt=" Crystal icon" height="42" width="42">
+            <a class="navbar-brand" href="#">&nbsp;Crystal Collector</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Portfolio
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About Me</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+                            aria-expanded="false">
+                            Projects
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="index.html">Crystal Collector</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Rock Paper Scissors</a>
+                            <a class="dropdown-item" href="#">Hangman</a>
+                            <a class="dropdown-item" href="#">FormulaGen</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="row" id="first-r">
+            <div class="col-12">
+
+
+
+                <div class="card text-center" >
+                    <div class="card-body">
+                        <section id="instructions">
+
+
+                            <div id="instructions-word">
+
+                                <h2>
+                                    <img src="assets/images/link1.jpg" class="img-fluid link2" alt="Responsive image">Master Collector, Rupee Edition</h2>
+                                <br>
+                                <i class="far fa-arrow-alt-circle-right arrow"></i>&nbsp; You will be given a random number at the start of the game.
+                                <br>
+                                <br>
+                                <i class="far fa-arrow-alt-circle-right arrow"></i>&nbsp; There are four crystals below. By clicking on a crystal you will add a specific
+                                amount of points to your total score.
+                                <br>
+                                <br>
+                                <i class="far fa-arrow-alt-circle-right arrow"></i>&nbsp; You win the game by matching your total score to random number, you lose the game
+                                if your total score goes above the random number.
+                                <br>
+                                <br>
+                                <i class="far fa-arrow-alt-circle-right arrow"></i>&nbsp; The value of each crystals id hidden from you until you click on it.
+                                <br>
+                                <br>
+                                <i class="far fa-arrow-alt-circle-right arrow"></i>&nbsp; Each time when the fame starts, the game will change the values of each crystal.
+                            </div>
+                        </section>
+                    </div>
+                </div>
+                        <div class="row">
+                            <div class="col-12">
+                        
+                            <div class="card" id="button-r">
+                        <div id="game-buttons">
+                            <img id="green-rupee" src="assets/images/green_rupee.jpg" class="img-fluid rupee" alt="Responsive image">
+                            <img id="blue-rupee" src="assets/images/blue_rupee.jpg" class="img-fluid rupee" alt="Responsive image">
+                            <img id="red-rupee" src="assets/images/red_rupee.png" class="img-fluid rupee" alt="Responsive image">
+                            <img id="yellow-rupee" src="assets/images/flat,1000x1000,075,f.jpg" class="img-fluid rupee" alt="Responsive image">
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="row" id="second-r">
+            <div class="col-4">
+
+                <div class="card score-c" >
+                    <h5 class="card-header">Save the princess!</h5>
+                    <div class="card-body" id="random-r">
+                        <img src="assets/images/Link-zelda.png" class="img-fluid link1" alt="Responsive image">
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="col-4">
+                    <button type="button" class="btn btn-dark" id="start">Adventure!</button>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    
+                    <div class="score-card">
+                       <section id="win-line"><span id="win-score">0</span> Wins
+                    </section>
+                    
+                    <br>
+
+                    <section id="loss-line">Losses <span id="loss-score">0</span>
+                    </section>
+
+                    </div>
+
+                    
+            </div>
+
+            <div class="col-4">
+
+                    <div class="card score-c" >
+                        <h5 class="card-header">Rupees in bag</h5>
+                        <div class="card-body" id="user-score">
+                            <img src="assets/images/link2.jpg" class="img-fluid link1" alt="Responsive image">
+                        </div>
+                    </div>
+    
+                </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer>
+            <nav class="navbar navbar-expand-lg fixed-bottom navbar-dark" id="footer-z">
+                <img src="assets/images/rupee-icon.jpg" class="game-icon" alt="Crystal icon" height="42" width="42">
+                <a class="navbar-brand" href="#">&nbsp;Crystal Collector</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio
+                                <span class="sr-only">(current)</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                    <span class="navbar-text">
+                        &copy;FormulaGen2018
+                    </span>
+                </div>
+            </nav>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+            crossorigin="anonymous"></script>
+
+
+        <script src="assets/javascript/game.js"></script>
+
+      
+
+
+    </div>
+</body>
+
+</html>

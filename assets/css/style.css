@@ -1,0 +1,142 @@
+#nav-z {
+    background-image: url("../images/zelda-nav.jpg");
+    background-size: 1375px 70px;
+    background-repeat: no-repeat;
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar-dark .navbar-brand {
+    color: rgb(239,228,164);
+    
+}
+
+.score-card {
+    font-size: 20px;
+    color:rgb(239,228,164);
+    border: red solid;
+    text-align: left;
+    border-radius: 12px;
+    border-width: 3px;
+}
+
+
+
+#win-line {
+    float:right;
+    text-align: right;
+}
+
+#button-r {
+    margin: 40px 0px 20px 0px;
+}
+
+#first-r{
+    margin: 70px 0px 0px 0px;
+}
+
+#second-r {
+    margin: 20px 0px 70px 0px;
+    text-align:left;
+}
+
+
+#user-score {
+    float: center;
+    font-size: 75px;
+    
+}
+
+
+#random-r {
+    float:center;
+    font-size: 75px;
+}
+
+
+
+#game-buttons {
+ float: left;
+}
+
+.link2 {
+    float: left;
+}
+
+.link1 {
+    float: left;
+    width: 40%;
+}
+
+.rupee {
+    width: 24%;
+
+}
+
+.rupee:hover {
+   cursor:-webkit-grab;
+   margin: 0px 2px 0px 2px;
+       
+  }
+  
+
+
+
+
+
+#instructions {
+   float: left;
+   text-align: left;
+   font-family: 'Gloria Hallelujah', cursive;
+   font-size: 20px;
+}
+
+.arrow {
+    box-shadow: 5px 5px 5px grey;
+    border-radius: 12px;
+}
+
+.arrow:hover {
+    animation: pulse 5s infinite;
+    
+  }
+  
+  @keyframes pulse {
+    0% {
+      color: teal;
+      
+    }
+    100% {
+      color: #FF4136;
+      font-size:35px;
+    }
+  }
+
+
+a.nav-link  {
+    color:purple;
+}
+
+body {
+    background-color: rgb(20,34,19);
+   
+   
+}
+
+
+.bg-primary {
+    background-color:  none;
+}
+
+#footer-z {
+    background-color: black;
+    font-family: 'Satisfy', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.game-icon {
+    border: thin 5px rgb(134,128,94);
+    border-radius: 50%;
+}
