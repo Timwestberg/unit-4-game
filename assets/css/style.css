@@ -44,14 +44,14 @@
 
 #user-score {
     float: center;
-    font-size: 75px;
+    font-size: 60px;
     
 }
 
 
 #random-r {
     float:center;
-    font-size: 75px;
+    font-size: 60px;
 }
 
 
@@ -97,8 +97,14 @@
     border-radius: 12px;
 }
 
+.score-c {
+    height: 200px;
+    width: 202px;
+
+}
+
 .arrow:hover {
-    animation: pulse 5s infinite;
+    animation: pulse 1.75s infinite;
     
   }
   
@@ -136,6 +142,16 @@ body {
     font-weight: bold;
 }
 
+.col-4 {
+   position: relative;
+   
+}
+
+#start {
+    position: absolute;
+    
+    
+}
 .game-icon {
     border: thin 5px rgb(134,128,94);
     border-radius: 50%;
